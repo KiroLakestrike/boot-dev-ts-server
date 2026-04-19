@@ -26,3 +26,8 @@ function removeProfanity(chirp: string): string {
     .map((word) => (PROFANITY.includes(word.toLowerCase()) ? "****" : word))
     .join(" ");
 }
+
+
+export async function handlerCreateChirp() {
+  
+}
